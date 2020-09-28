@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Replace '/index.php' with path to main script where you do run PAPI
+RewriteRule ^(.*)$ /index.php

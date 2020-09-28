@@ -1,0 +1,28 @@
+{
+    "name": "vla5924/papi",
+    "homepage": "https://github.com/vla5924/papi",
+    "type": "library",
+    "description": "Lightweight PHP framework for serving JSON REST API backend",
+    "keywords": [
+        "api",
+        "rest"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksim Vlasov",
+            "email": "contact@mvla.ru",
+            "homepage": "https://mvla.ru",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PAPI\\": "src/"
+        }
+    }
+}
